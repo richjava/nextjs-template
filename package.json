@@ -6,7 +6,7 @@
   "author": "Julien Sulpis",
   "scripts": {
     "dev": "next src",
-    "build": "yarn clean && next build src --output public",
+    "build": "yarn clean && next build src",
     "build:now": "yarn build && cp -r src/.next .next && cp -r src/public public",
     "export": "next export src",
     "start": "next start src",
